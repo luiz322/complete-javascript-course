@@ -1,30 +1,4 @@
-// Logical Operators
-const hasDriversLicense = true; // A
-const hasGoodVision = true; // B
-
-console.log(hasDriversLicense && hasGoodVision);
-console.log(hasDriversLicense || hasGoodVision);
-console.log(!hasDriversLicense);
-
-// if (hasDriversLicense && hasGoodVision) {
-//   console.log('Sarah is able to drive!');
-// } else {
-//   console.log('Someone else should drive...');
-// }
-
-const isTired = false; // C
-console.log(hasDriversLicense && hasGoodVision && isTired);
-
-if (hasDriversLicense && hasGoodVision && !isTired) {
-  console.log('Sarah is able to drive!');
-} else {
-  console.log('Someone else should drive...');
-}
-*/
-
-////////////////////////////////////
 // Coding Challenge #3
-
 /*
 There are two gymnastics teams, Dolphins and Koalas. They compete against each other 3 times. The winner with the highest average score wins the a trophy!
 
